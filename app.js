@@ -7,10 +7,7 @@ const SEATS_BY_ROOM = {
 
 // 고정 좌석 설정
 const fixedSeatsByRoom = {
-  "212호": {
-"19": "김지호",
-"20": "이지후",
-"27": "임채은"
+  "212호": {"
   }
 };
 
@@ -346,4 +343,5 @@ $copyCsvBtn.onclick = copyCsv;
 $confirmationCloseBtn.onclick = closeConfirmationModal;
 
 renderWeekTabs();
+
 attachBookingsListener();
