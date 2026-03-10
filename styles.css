@@ -126,11 +126,6 @@ h1, h2 { text-align: center; }
 .seat .name { font-weight: 600; font-size: 13px; }
 
 .seat.booked { background-color: #e74c3c; }
-.seat.fixed {
-  background-color: gray;
-  cursor: not-allowed;
-  opacity: .9;
-}
 
 .modal {
   display: none;
@@ -182,4 +177,5 @@ button:hover { background-color: #2980b9; }
   align-items: center; justify-content: space-between;
   border-bottom: 1px dashed #eee; padding: 8px 0;
 }
+
 .res-item:last-child { border-bottom: 0; }
